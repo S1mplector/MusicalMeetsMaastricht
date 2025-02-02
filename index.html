@@ -1,1 +1,52 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Musical Meets Maastricht - Animation</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Main animation container -->
+  <div id="preloader">
+    
+    <!-- Brown Dot that drops and expands -->
+    <div id="dot"></div>
+
+    <!-- Frosted Background -->
+    <div id="frosted-bg"></div>
+
+    <!-- The logo pops up from below -->
+    <img src="mmm.png" alt="Musical Meets Maastricht Logo" id="logo">
+
+    <!-- Text fades in after the background finishes changing color -->
+    <h2 id="logo-text">Musical Meets Maastricht</h2>
+
+    <!-- Buttons appear one by one (vertically) -->
+    <div id="buttons-container">
+      
+      <!-- Latest News Section -->
+      <div id="latest-news">
+        <h3>Latest</h3>
+        <h4 id="article-title">Your Article Title Here</h4>
+        
+        <div class="author-info">
+          <img src="author.jpg" alt="Author's Picture" class="author-pic" />
+          <div class="author-details">
+            <p class="author-name">Jane Doe</p>
+            <p class="entry-date">Entry Date: 2025-01-01</p>
+          </div>
+        </div>
+      </div>
+
+      <button class="button-86" role="button">News</button>
+      <button class="button-86" role="button">Teams</button>
+      <button class="button-86" role="button">Our Story</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
