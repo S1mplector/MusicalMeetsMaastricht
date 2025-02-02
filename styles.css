@@ -222,7 +222,7 @@
 
   opacity: 0;
   animation: slideInLeftNews 1s ease forwards;
-  animation-delay: 4s; /* wait 4s after page load, then animate */
+  animation-delay: 2s; /* wait 4s after page load, then animate */
 }
 
 @keyframes slideInLeftNews {
